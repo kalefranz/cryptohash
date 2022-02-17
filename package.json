@@ -8,7 +8,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "dev-peer": "cross-env GENERATE_PEER_PORT='true' nodemon index.js",
-    "start-redis": "docker run --name redis --rm -t -p 6379:6379 redis"
+    "redis-server": "docker run --rm -t -p 6379:6379 redis"
   },
   "keywords": [],
   "author": "",
